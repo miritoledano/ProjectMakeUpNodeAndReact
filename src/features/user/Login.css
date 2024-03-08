@@ -1,0 +1,76 @@
+.imag-from {
+  font-family: "Almoni", sans-serif;
+  /* --swiper-theme-color: #007aff; */
+  --swiper-navigation-size: 2vw;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1vw;
+  color: inherit;
+  box-sizing: border-box;
+  line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+  width: 50vw;
+  background-color: black;
+  position: relative;
+}
+
+.all-form {
+  direction: ltr;
+  height: 70vh;
+}
+
+.fields input {
+  width: 10vw;
+  border: none;
+  padding: 1vw;
+  outline: none;
+  box-shadow: 0 0 0 0.4vw #ef4c80;
+  border-radius: 1vw;
+  transition: box-shadow 0.3s;
+}
+
+.fields input:focus {
+  /* box-shadow: 0 0 0 0.4vw #1976d2; */
+}
+
+.fields .MuiAlert-root {
+  margin-bottom: 1vw;
+  color: #ef4c80;
+}
+
+.imag-from img {
+  font-family: "Almoni", sans-serif;
+  /* --swiper-theme-color: #007aff; */
+  --swiper-navigation-size: 2vw;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1vw;
+  color: inherit;
+  box-sizing: border-box;
+  line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+  height: auto;
+  width: 10vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+@media (max-width: 700px) {
+  /* כאן תוכל להוסיף סגנונות כאשר המסך קטן מ-700px */
+  .all-form {
+      height: auto;
+  }
+
+  
+  .imag-from{
+width: 250%;
+  }
+  .all-form{
+   margin-top: 30vh;
+  }
+}

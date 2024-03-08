@@ -1,0 +1,168 @@
+/* ShoppingCart.css */
+
+.shopping-cart {
+  margin-top: 5px;
+  width: 55vw;
+  /* padding-left: 180px; */
+  
+  border-radius: 8px;
+  margin: 100px;
+  
+  display: flex;
+ 
+  height: 50%; /* Set the height to 50% of its current size */
+}
+
+.shopping-cart h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+
+}
+
+.shopping-cart ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  margin-left: 180px;
+ 
+
+}
+.allProduct{
+  border-radius: 8px;
+  background-color: #ffd2e1;
+  width: 55vw;
+  height: 5vh; 
+  font-weight: bolder;
+  
+}
+
+.shopping-cart li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 1px solid #ddd; */
+  background-color: #ffd2e1;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-radius: 8px;
+  padding: 10px;
+  height: 20vh;
+
+}.c{
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  direction: rtl;
+  font-family: Cairo,Arial,Helvetica,sans-serif!important;
+  font-size: 12px;
+  color: #222;
+  box-sizing: border-box;
+  letter-spacing: normal!important;
+  vertical-align: middle;
+  border: 0;
+  width: 51px;
+  height: 34px;
+  margin-left: 3px;
+  margin-top: 15px;
+}
+.ashrai{
+  margin-top: 15px;
+  font-weight: bold;
+}
+.count {
+  display: flex;
+  align-items: center;
+}
+
+.shopping-cart button {
+  background-color: #000000; /* רוד סגול */
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 5px;
+  margin-top: 5px;
+
+}
+
+.count h1 {
+  margin: 0;
+  padding: 0 10px;
+  font-size: 1.2em;
+}
+
+.shopping-cart span {
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+.imgShoppingLarg  {
+  width: 10%; /* גודל התמונה */
+  height: auto;
+  border-radius: 4px;
+
+}
+
+.purchase-button:hover {
+  background-color: #393737;
+}
+
+.order-summary {
+  background-color: #ffd2e1;
+  border-radius: 8px;
+  /* margin-right: 100px; מרווח מימין נמוך */
+  margin-bottom: 10px;
+  text-align: center;
+  width: 40%;
+  padding: 1%;
+  direction: ltr;
+  
+
+}
+
+
+.buttonS {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ShoppingCart.css */
+@media (max-width: 700px) {
+.shopping-cart {
+  margin-top: 5px;
+  width: 100%;
+ 
+  border-radius: 8px;
+  margin: 100px auto; /* שמירת מרווחים ייחודיים למרכז הדף */
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px; /* הוספת padding למסך קטן יותר */
+  max-width: 700px; /* הגבלת הרוחב ל-700px למסכים קטנים יותר */
+}
+
+.shopping-cart ul{
+margin-left: 30px;
+}
+  /* ט */
+  .order-summary{
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+}
+
+
+/* תוספות עיצוב נוספות */
+
+

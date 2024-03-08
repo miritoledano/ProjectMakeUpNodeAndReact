@@ -1,0 +1,29 @@
+.for{
+    background-image: url('2.jpg');
+  background-size: cover;
+ margin-top: 13%;
+  
+  width: 50vw;
+  height: 60vh;
+  padding: 2%;
+
+  background-color: rgba(249, 222, 230, 0.99);
+  border-radius: 8px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  text-align: center;
+  overflow: auto;
+}
+.addToCard{
+    font-weight: bolder;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 5%;
+}
+@media (max-width: 700px) {
+  .MuiInputBase-root {
+    height: 7vh;
+    width: 26vh;
+    /* width: vw; ניתן לשנות את הערך לכל גובה שתרצה */
+  }
+}

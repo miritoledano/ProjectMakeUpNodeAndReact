@@ -1,0 +1,350 @@
+#footer {
+  position: absolute;
+  left: 0;
+  /* bottom: 0; */
+  width: 100%;
+ /* height: 300px; */
+  background-color: rgb(228, 90, 128);
+}
+body{
+  bottom: 0;
+
+}
+#img{
+  margin-top: 15%;
+  height: 200px;
+  margin-left: 4%;
+  margin-bottom: 1%;
+  width: 100px;
+}#winnings {
+  background-color: white;
+  height: 35px;
+  text-align: center;
+  font-weight: bold; /* קביעת עובי הכתב למודגש */
+}
+
+  
+.floating_icons_close_button{    font-family: "Almoni", sans-serif;
+/* --swiper-theme-color: #007aff; */
+--swiper-navigation-size: 44px;
+direction: rtl;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+color: inherit;
+box-sizing: border-box;
+line-height: inherit;
+-webkit-font-smoothing: antialiased;
+width: 3em;
+height: 4em;
+display: inline-block;
+margin-bottom: 5px;}
+
+
+
+
+#allicon2 {
+  
+  top: 0;
+  /* left: 50%; */
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50%;
+  margin-top: 5%;
+  /* margin-right: 10%; */
+  
+}.p{
+  font-family: 'Arial', sans-serif; /* בחירת גופן */
+
+  font-weight: bold; /* משקל גופן */
+  color: white; /* צבע גופן */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* צל על הטקסט */
+  
+  padding: 10px 20px; /* ריפוד פנימי */   
+  border-radius: 5px; /* רדיוס פינות */
+}
+
+
+#allicon2 > div {
+  margin-left: 15%;
+ text-align: center;
+  align-items: center;
+  
+ 
+  
+
+  
+}#cotert {
+  font-family: 'Arial', sans-serif; /* בחירת גופן */
+  /* font-size:25px; גודל גופן */
+margin-left: 0%;
+margin-left: 25%;
+
+    font-size: 2.5rem; /* כאן תוכלי לשנות את הגודל לפי הצורך שלך */
+  
+  font-weight: bold; /* משקל גופן */
+  color: white; /* צבע גופן */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* צל על הטקסט */
+  
+  /* padding: 10px 20px; ריפוד פנימי */
+  border-radius: 5px; /* רדיוס פינות */
+}
+
+#allicon p {
+  color: white;
+
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  /* margin-top: 10px; מרווח מעל לטקסט */
+
+
+}
+#allicon > div svg {
+  color: white;}
+  #all {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* שלוש עמודות בגודל שווה */
+    grid-gap: 0; /* אין רווח בין האלמנטים */
+    align-items: flex-start; /* כל האלמנטים יתמקדו בציר האנכי */
+  }
+  #accessibility{
+    display: grid;
+    margin-left: 192%;
+    margin-top: 2%;
+  }#accessibility svg {
+    color: white;}
+
+ .flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.social-links {
+  display: flex;
+}
+
+.social-btn {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  background: white;
+  margin: 5px;
+  transition: 1s;
+}
+
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: 1s;
+  text-align: center;
+}
+
+.social-btn:hover {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.social-btn:hover span {
+  padding: 2px;
+  width: max-content;
+}
+
+#twitter svg {
+  fill: #e70c9e;
+}
+
+#linkedin svg {
+  fill: #e70c9e;
+}
+
+#github {
+  fill: #e70c9e;
+}#all2{
+  
+}
+@media only screen and (max-width: 700px) {
+  /* Default styles */
+#footer {
+  position: absolute;
+  left: 0;
+  /* bottom: 0; */
+  width: 100%;
+  /* height: 300px; */
+  background-color: rgb(228, 90, 128);
+}
+
+body {
+  bottom: 0;
+}
+
+#img {
+  margin-top: 15%;
+  height: 200px;
+  margin-left: 4%;
+  margin-bottom: 1%;
+  width: 100px;
+}
+
+#winnings {
+  background-color: white;
+  height: 35px;
+  text-align: center;
+  font-weight: bold;
+  /* קביעת עובי הכתב למודגש */
+}
+
+#allicon2 {
+  top: 0;
+  /* left: 50%; */
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50%;
+  margin-top: 5%;
+  /* margin-right: 10%; */
+}
+
+.p {
+  font-family: 'Arial', sans-serif;
+  /* בחירת גופן */
+  font-weight: bold;
+  /* משקל גופן */
+  color: white;
+  /* צבע גופן */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* צל על הטקסט */
+  padding: 10px 20px;
+  /* ריפוד פנימי */
+  border-radius: 5px;
+  /* רדיוס פינות */
+}
+
+#allicon2 > div {
+  margin-left: 15%;
+  text-align: center;
+  align-items: center;
+}
+
+#cotert {
+  font-family: 'Arial', sans-serif;
+  /* בחירת גופן */
+  /* font-size:25px; גודל גופן */
+  margin-left: 0%;
+  margin-left: 25%;
+  font-size: 2.5rem;
+  /* כאן תוכלי לשנות את הגודל לפי הצורך שלך */
+  font-weight: bold;
+  /* משקל גופן */
+  color: white;
+  /* צבע גופן */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* צל על הטקסט */
+  /* padding: 10px 20px; ריפוד פנימי */
+  border-radius: 5px;
+  /* רדיוס פינות */
+}
+
+#allicon p {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* margin-top: 10px; מרווח מעל לטקסט */
+}
+
+#allicon > div svg {
+  color: white;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap; /* NEW: Wrap the items if they exceed the container's width */
+}
+
+.social-btn {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  margin: 5px;
+  transition: 1s;
+}
+
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: 1s;
+  text-align: center;
+}
+
+.social-btn:hover {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.social-btn:hover span {
+  padding: 2px;
+  width: max-content;
+}
+
+#twitter svg {
+  fill: #e70c9e;
+}
+
+#linkedin svg {
+  fill: #e70c9e;
+}
+
+#github {
+  fill: #e70c9e;
+}
+
+@media only screen and (max-width: 700px) {
+  /* Responsive styles for screens with a width of 700px or less */
+
+  #allicon2 {
+      margin-left: 40%;
+    width: 25px;
+      justify-content: center;
+  }
+
+  #cotert {
+      margin-left: 0;
+      text-align: center;
+  }
+
+  #all {
+      grid-template-columns: 1fr;
+  }
+
+  #accessibility {
+      margin-left: 0;
+      justify-content: center;
+  }
+
+  #img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }
+}
+
+}

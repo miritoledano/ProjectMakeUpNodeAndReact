@@ -1,0 +1,60 @@
+.all-form {
+    display: flex;
+    margin: 15%;
+    /* height: 50%;
+    width: 50%; */
+    justify-content: space-between;
+  }
+  .MuiInputBase-root{
+    width: 60vh;
+  }
+ 
+  
+  .text-Login {
+    text-align: center;
+    font-size: 100%;
+    color: inherit;
+    box-sizing: border-box;
+    line-height: inherit;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .image-form {
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+  
+    /* transform: translate(-50%, -50%); */
+  }
+  
+ .MuiInputBase-root {
+    height: 7vh;
+    /* width: vw; ניתן לשנות את הערך לכל גובה שתרצה */
+  }
+  .imag-from{
+    background-color: black;
+    width: 25%;
+    margin-left: 55%;
+    position: relative;
+   
+   
+  }.img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  @media (max-width: 700px) {
+    /* כאן תוכל להוסיף סגנונות כאשר המסך קטן מ-700px */
+    .all-form {
+        height: auto;
+    }
+  
+    
+    .imag-from{
+  width: 250%;
+    }
+    .all-form{
+      margin-top: 30vh;
+     }
+  }

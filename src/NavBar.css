@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  /* margin-top: 12%; */
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden; /* מונע גלילה לרוחב */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(249, 222, 230, 0.45);
+  /* background-color: rgba(249, 222, 230, 0.45); */
+}
+
+.nav-type {
+  list-style-type: none;
+  display: flex;
+  padding: 1.2vh 0;
+  margin: 0;
+  background-size: 400% 400%;
+  background-image: linear-gradient(-45deg, #ab3e5f, #e1a5b4, hsl(334, 84%, 58%), #f73673, #e89cb5);
+  animation: 12s myGradient infinite;
+  box-shadow: 0 0 20px #f098a5;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  justify-content: space-between;
+}
+
+@keyframes myGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+li {
+  margin-right: 1vw;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1.5vh; /* Changed to vh for better scaling */
+  font-family: verdana;
+  font-weight: lighter;
+  font-size: 2.5vh; /* Changed to vh for better scaling */
+  letter-spacing: 0.4vw; /* Changed to vw for better scaling */
+  opacity: 0.9;
+}
+
+.navigation {
+  padding-top: 1.5vh;
+  position: fixed;
+  background-color: #ffd2e1;
+  transform: translate(-50%, -50%);
+  top: 5vh;
+  left: 50vw;
+  width: 100vw;
+  z-index: 100;
+  margin-top: 3vh;
+}
+
+#logo {
+  margin-left: 40vw;
+  margin-top: 4vh;
+}
+
+.text-content-fluid {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 65vh;
+  left: 50vw;
+}
+
+.container {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 18vw; /* Changed to vw for better scaling */
+  height: 6vh; /* Changed to vh for better scaling */
+  margin-left: 87vw; /* Changed to vw for better scaling */
+}
+
+.search {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 4.8vw; /* Changed to vw for better scaling */
+  height: 4.8vw; /* Changed to vw for better scaling */
+  background: rgb(243, 73, 107);
+  border-radius: 50%;
+  transition: all 1s;
+  z-index: 4;
+  box-shadow: 0 0 1.5vh 0 rgba(0, 0, 0, 0.4); /* Changed to vh for better scaling */
+}
+
+.search::before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  top: 1.4vw; /* Changed to vw for better scaling */
+  right: 0;
+  bottom: 0;
+  left: 1.4vw; /* Changed to vw for better scaling */
+  width: 0.8vw; /* Changed to vw for better scaling */
+  height: 0.1vh; /* Changed to vh for better scaling */
+  background: black;
+  transform: rotate(45deg);
+  transition: all .5s;
+}
+
+.search::after {
+  content: "";
+  position: absolute;
+  margin: auto;
+  top: -0.2vw; /* Changed to vw for better scaling */
+  right: 0;
+  bottom: 0;
+  left: -0.2vw; /* Changed to vw for better scaling */
+  width: 1vw; /* Changed to vw for better scaling */
+  height: 1vw; /* Changed to vw for better scaling */
+  border-radius: 50%;
+  border: 0.1vw solid black; /* Changed to vw for better scaling */
+  transition: all .5s;
+}
+
+input {
+  font-family: 'Inconsolata', monospace;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 3vw; /* Changed to vw for better scaling */
+  height: 3vw; /* Changed to vw for better scaling */
+  outline: none;
+  border: none;
+  background: rgb(243, 73, 107);
+  color: black;
+  text-shadow: 0 0 0.6vw rgb(243, 73, 107); /* Changed to vw for better scaling */
+  padding: 0 4.8vw 0 1.2vw; 
+}
+

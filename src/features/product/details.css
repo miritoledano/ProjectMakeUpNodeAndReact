@@ -1,0 +1,75 @@
+.item_color_image.lazy.loaded {
+    font-family: "Almoni", sans-serif;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    direction: rtl;
+    cursor: pointer;
+    margin: 0 10px; /* מרווחים בין האלמנטים */
+    font-size: 100%;
+    color: inherit;
+    box-sizing: border-box;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+    width: 50px; /* רוחב התמונה בפיקסלים */
+    height: 50px; /* גובה התמונה בפיקסלים */
+    display: inline-block; /* עמידה בשורה */
+    transition: all 0.25s ease;
+    transform-origin: 50% 100%;
+    padding: 2.5px;
+    border: 1px solid #000;
+  /* margin-top: 20%; */
+  margin-left: 2%;
+    object-fit: contain; /* תמונה תמלא את התיבה ותשמר את יחסי ההיקף */
+}.color-squares {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;}
+
+  .colors{
+    margin-right: 400px;
+  margin-bottom: 5px;
+
+  }
+  
+  .color-square {
+    width: 80px;
+    height: 60px;
+    margin-right: 50px; /* רווח 5px בין כל ריבוע לריבוע הבא */
+    border-radius: 1px black;
+  }.item_color_image {
+    transition: transform 0.3s;
+}/* App.css */
+@keyframes changeColor {
+  0% { color: rgb(225, 169, 169); }
+  25% { color: rgb(231, 72, 215); }
+  50% { color: rgb(221, 186, 204); }
+  75% { color: rgb(241, 127, 241); }
+  100% { color: rgb(242, 145, 145); }
+}
+
+.color-change {
+  margin-right: 10px;
+  animation: changeColor 5s infinite; /* זמן אנימציה בסך הכל 5 שניות וחוזרת על עצמה ללא הפסקה */
+}
+
+
+.item_color_image:hover {
+    transform: scale(1.2);
+}
+@media (max-width: 700px) {
+  .item-details {
+      /* width: 100%;
+      padding: 0 10px;
+      left:0;
+      right: 0; */
+      /* margin-bottom: 150px; */
+      height: 450px;
+  }
+  .plus-minus{
+    
+    
+    margin-top: 570px;
+    
+    
+  }
+}

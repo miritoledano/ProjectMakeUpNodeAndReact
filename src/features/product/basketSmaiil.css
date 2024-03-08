@@ -1,0 +1,98 @@
+.shopping-cart-small {
+    /* position: fixed;
+    bottom: 0;
+    left: 17.33%;
+    transform: translateX(-50%);
+    width: 33.33%;
+    background-color: #ffd2e1;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 27px;
+    padding-left: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    animation: slideIn 0.5s forwards;
+   */
+   position: fixed;
+    bottom: 0;
+    left: 20%;
+    transform: translateX(-50%);
+    width: 25.33%;
+    max-width: 700px; /* מוגבל עד 700 פיקסלים ברוחב */
+    background-color: #ffd2e1;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 27px;
+    padding-left: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    animation: slideIn 0.5s forwards;
+    
+  }
+  .purchase-button {
+    position: fixed;
+    width: 33.33%;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999; /* כדי שהכפתור יהיה מעל לתוכן העמוד */
+  }
+  
+  
+
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-50%) translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+  }
+  .shopping-cart-small h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .shopping-cart-small ul {
+    list-style-type: none;
+    padding: 0;
+    height: 310px; /* גובה קבוע של הרשימה */
+    overflow: auto; /* הוספת גלילה */
+    scrollbar-color: #8c878c transparent;
+}
+@media (max-width: 700px) {
+  .shopping-cart-small{
+    width: 250px;
+    left: 50%;
+  }
+}
+
+  
+  .shopping-cart-small li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 1px solid black; /* הוספת שורה שחורה מלמעלה */
+}
+
+  
+  .shopping-cart-small button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #161516;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .shopping-cart-small img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-left: 10px;
+  }
+  
