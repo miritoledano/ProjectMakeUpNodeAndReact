@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
-import { json } from 'react-router-dom';
+// import { json } from 'react-router-dom';
 
  const initialState={
     //  details:{DueDate: "",
@@ -24,7 +24,7 @@ export const orderSlice=createSlice({
             
           const existingProductIndex = state.basket.findIndex(item => item._id === action.payload._id);
           
-          if (existingProductIndex!=-1) {
+          if (existingProductIndex!==-1) {
             state.basket[existingProductIndex].CountProduct += 1;
            state.count++;
           } else {

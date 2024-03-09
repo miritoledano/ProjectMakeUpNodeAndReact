@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import Alert from "@mui/material/Alert";
-import { addUser,Login } from "./userApi";
+import { Login } from "./userApi";
 import { Link } from 'react-router-dom';
 import { useDispatch } from "react-redux";
 //  import "./SingUp.css";
@@ -37,7 +37,7 @@ export const Loginn = () => {
         
          catch (error) {
           setMessage(error.response.data.message);
-          if(error.response.data.message=="User does not exist"){
+          if(error.response.data.message==="User does not exist"){
             setUserNotExist(true);
                 
           }
@@ -149,7 +149,7 @@ export const Loginn = () => {
     borderRadius: "15px",
     padding: "10px 20px",
     cursor: "pointer",
-    padding: "15px",
+    // padding: "15px",
    
     width: "100%",
     boxShadow: "0px 2px 4px rgba(25, 118, 210, 0.2)",

@@ -9,8 +9,8 @@
 //                     <img class="item_color_image lazy loaded" data-optimized="product_color" src="https://www.flormar.co.il/wp-content/uploads/2023/10/31000249-030-1.png?x23503" data-src="https://www.flormar.co.il/wp-content/uploads/2023/10/31000249-030-1.png?x23503" width="24" height="24" alt="SKIN REFRESH FOUNDATION סקין ריפרש  LIGHT BRIGHT 030" title="SKIN REFRESH FOUNDATION סקין ריפרש  LIGHT BRIGHT 030" data-was-processed="true"></img>
 
 // import { GiSquare } from "react-icons/gi";
-import { FaShareSquare, FaHeart } from "react-icons/fa";
-import {SmallCart} from "./basketSmall"
+// import { FaShareSquare, FaHeart } from "react-icons/fa";
+// import {SmallCart} from "./basketSmall"
 
 
 // import { FaRegHeart } from "react-icons/fa6";
@@ -18,7 +18,7 @@ import './details.css';
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { getProductById } from "./productApi";
-import { addToBasket,removeFromBasket } from "../order/orderSlice";
+import { addToBasket } from "../order/orderSlice";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 

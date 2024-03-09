@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { setBasket, setCount } from '../order/orderSlice';
-import { useDispatch } from 'react-redux';
+// import { setBasket, setCount } from '../order/orderSlice';
+// import { useDispatch } from 'react-redux';
 
 const initialState = {
   currentUser: null,

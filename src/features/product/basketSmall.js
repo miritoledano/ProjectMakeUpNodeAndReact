@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { removeFromBasket, addToBasket } from "../order/orderSlice";
 import "./basketSmaiil.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export const SmallCart = () => {
   const [isVisible, setIsVisible] = useState(true);
