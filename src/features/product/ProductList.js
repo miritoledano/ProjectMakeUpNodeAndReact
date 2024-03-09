@@ -31,7 +31,7 @@ export const ProductList = () => {
   const handlePageChange = (event, page) => {
     setCurrentPage(page);
   };
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const handleSearchChange = (event) => {
     setSearchTerm(event.target.value);
     
@@ -91,9 +91,9 @@ const onSubmitUpdate = async (data) => {
   return (
     <>
     <div class="container">
-        <img class="image" src="/3.png" />
-        <img class="image" src="/4.png" />
-        <img class="image" src="/2.png" />
+        <img class="image" src="/3.png" alt="3"/>
+        <img class="image" src="/4.png" alt="2"/>
+        <img class="image" src="/2.png" alt="1"/>
       </div>
 
       <Box display="flex" alignItems="center" className="serch2">
@@ -351,7 +351,7 @@ const onSubmitUpdate = async (data) => {
 /> */}
       <Pagination  className="page" count={4} sx={{ '& .Mui-selected': { backgroundColor: 'pink' }}} page={currentPage} onChange={handlePageChange} />
       <div className="imgLast">
-  <img className="imggLast" src="/1.png" />
+  <img className="imggLast" src="/1.png"  alt="5"/>
   </div>
   
     </>

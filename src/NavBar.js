@@ -6,10 +6,10 @@ import {Link} from "react-router-dom"
 import { useDispatch, useSelector } from "react-redux";
 import { BiExit } from "react-icons/bi";
 import { userOut } from "./features/user/userSlice";
-import { Dispatch } from "@reduxjs/toolkit";
+// import { Dispatch } from "@reduxjs/toolkit";
 import { setBasket,setCount } from "./features/order/orderSlice";
 import "./NavBar.css";
-import { orderSlice } from "./features/order/orderSlice";
+// import { orderSlice } from "./features/order/orderSlice";
  export const NavBar = () => {
   const dispatch=useDispatch();
   const user = useSelector((state) => state.user.currentUser)?.userName
@@ -158,6 +158,7 @@ AddProduct
                   href="/" 
                   target="_blank"
                   class="active"
+                  rel="noreferrer"
                 >
                   Home
                 </a>
@@ -167,6 +168,7 @@ AddProduct
                   href="https://codepen.io/TomikaBoy/full/LqMpaE"
                   target="_blank"
                   class="active1"
+                  rel="noreferrer"
                 >
                   About
                 </a>
@@ -231,6 +233,7 @@ AddProduct
                   href="/" 
                   target="_blank"
                   class="active"
+                  rel="noreferrer"
                 >
                   Home
                 </a>
@@ -240,6 +243,7 @@ AddProduct
                   href="https://codepen.io/TomikaBoy/full/LqMpaE"
                   target="_blank"
                   class="active1"
+                  rel="noreferrer"
                 >
                   About
                 </a>

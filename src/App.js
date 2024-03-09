@@ -6,6 +6,7 @@ import { Details } from "./features/product/details";
 import { Route, Routes } from 'react-router-dom';
 import { Footer } from "./Footer";
 import { Home } from "./Home";
+
 import { ShoppingCart } from "./features/order/ShoppingCard";
 import { SmallCart } from "./features/product/basketSmall";
 import { SingUp } from "./features/user/SingUp"
@@ -43,7 +44,7 @@ function App() {
     if (count) {
       dispatch(setCount(JSON.parse(count)));
     }
-  }, []);
+  }, [dispatch]);
 
  
 
