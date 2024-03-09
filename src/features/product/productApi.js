@@ -1,24 +1,24 @@
 import axios from "axios"
-let baseUrl = "http://localhost:5300/api/product/";
+let baseUrl = "https://projectnode-1-49hj.onrender.com/api/product/";
 export const getProduct = (page, perPage, search) => {
   return axios.get(`${baseUrl}?page=${page}&perPage=${perPage}&txt=${search}`);
 }
 
           export const getProductById=(id)=>{
-return axios.get(`http://localhost:5300/api/product/${id}`)
+return axios.get(`https://projectnode-1-49hj.onrender.com/api/product/${id}`)
           }
           export const deleteProduct=(id,token)=>{
             const headers= {
               "x-access-token": token,
             }
-            return axios.delete(`http://localhost:5300/api/product/${id}`, { headers })
+            return axios.delete(`https://projectnode-1-49hj.onrender.com/api/product/${id}`, { headers })
                       }
           
           export const updateById=(id,token)=>{
             const headers= {
               "x-access-token": token,
             }
-            return axios.put(`http://localhost:5300/api/product/${id}`,{headers})
+            return axios.put(`https://projectnode-1-49hj.onrender.com/api/product/${id}`,{headers})
                       }
           export const addProduct=(code, name, ProviderCode, Discribe,token)=>{
           const data={

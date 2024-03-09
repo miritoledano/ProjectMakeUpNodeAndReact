@@ -14,8 +14,8 @@ import { Form } from "./features/order/Form"
 import { useDispatch } from 'react-redux';
 import { userIn } from './features/user/userSlice';
 import { useEffect } from 'react';
-import { useSelector } from 'react-redux';
-import { addToBasket } from './features/order/orderSlice';
+// import { useSelector } from 'react-redux';
+// import { addToBasket } from './features/order/orderSlice';
 import {setBasket,setCount} from "./features/order/orderSlice"
 import { AddProduct } from './features/product/AddProduct';
 import {UpdateProduct}from "./features/product/UpdateProduct"

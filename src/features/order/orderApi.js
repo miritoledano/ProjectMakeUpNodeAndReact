@@ -1,6 +1,6 @@
 import axios from "axios";
 
-let baseUrl = "http://localhost:5300/api/order/";
+let baseUrl = "https://projectnode-1-49hj.onrender.com/api/order/";
 
 export const addOrder = (address, theOrderedProducts ,/* userId, */DueDate,token) => {
   

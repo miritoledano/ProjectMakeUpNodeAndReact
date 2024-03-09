@@ -3,7 +3,7 @@ import './footer.css'
 import { TiPhone } from "react-icons/ti";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { RiWhatsappFill } from "react-icons/ri";
-import { red } from '@mui/material/colors';
+
 import { LuAccessibility } from "react-icons/lu";
 import { RxAccessibility } from "react-icons/rx";
 
