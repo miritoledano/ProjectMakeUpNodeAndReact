@@ -28,6 +28,8 @@ export const ProductList = () => {
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [message, setMessage] = useState("");
+  const [products, setProducts] = useState([]);
+  const [totalPages, setTotalPages] = useState(1);
   const handlePageChange = (event, page) => {
     setCurrentPage(page);
   };
@@ -49,6 +51,8 @@ export const ProductList = () => {
     getProduct(currentPage, 10, "")
       .then((res) => {
         setArr(res.data);
+        alert(res.data.totalPages)
+        setTotalPages(res.data.totalPages);
       })
       .catch(() => {
         alert("לא ניתן לטעון את המוצרים");
@@ -349,7 +353,7 @@ const onSubmitUpdate = async (data) => {
   onChange={handleSearchChange}
   style={{ backgroundColor: "black" }}
 /> */}
-      <Pagination  className="page" count={4} sx={{ '& .Mui-selected': { backgroundColor: 'pink' }}} page={currentPage} onChange={handlePageChange} />
+      <Pagination  className="page" count={totalPages} sx={{ '& .Mui-selected': { backgroundColor: 'pink' }}} page={currentPage} onChange={handlePageChange} />
       <div className="imgLast">
   <img className="imggLast" src="/1.png"  alt="5"/>
   </div>
